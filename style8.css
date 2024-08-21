@@ -54,6 +54,7 @@ body {
 }
 .nav {
 	grid-row:3/4;
+	grid-column: span 4;
 }
 .menu {
 	display: flex;
