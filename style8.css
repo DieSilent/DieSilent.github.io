@@ -66,7 +66,7 @@ body {
 
 .menu li a {
 	display: block;
-	padding: 3em;
+	padding: 2em;
 	flex:1;
 	text-decoration: none;
 	color:white;
@@ -78,4 +78,22 @@ body {
 	  
     opacity: 100%;
     transition: opacity 1s;
+}
+
+@media screen and (max-width: 850px) {
+	.nav {
+	grid-column: span 3;
+}
+	.menu li a {
+		padding:1.5em;
+	}
+}
+@media screen and (max-width: 650px) {
+	.nav {
+	grid-column: span 2;
+}
+	.menu li a {
+		padding:0.5em;
+		font-size:0.8em;
+	}
 }
